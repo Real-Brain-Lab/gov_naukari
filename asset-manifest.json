@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gov_naukari/static/css/main.9d7d7951.css",
-    "main.js": "/gov_naukari/static/js/main.6073d320.js",
+    "main.js": "/gov_naukari/static/js/main.547366cc.js",
     "index.html": "/gov_naukari/index.html",
     "main.9d7d7951.css.map": "/gov_naukari/static/css/main.9d7d7951.css.map",
-    "main.6073d320.js.map": "/gov_naukari/static/js/main.6073d320.js.map"
+    "main.547366cc.js.map": "/gov_naukari/static/js/main.547366cc.js.map"
   },
   "entrypoints": [
     "static/css/main.9d7d7951.css",
-    "static/js/main.6073d320.js"
+    "static/js/main.547366cc.js"
   ]
 }
