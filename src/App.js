@@ -1073,7 +1073,6 @@ function Results() {
 }
 
 function App() {
-  const [jobs, setJobs] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedJob, setSelectedJob] = useState(null);
   const [theme, setTheme] = useState('dark');
@@ -1081,20 +1080,12 @@ function App() {
   const [isSearching, setIsSearching] = useState(false);
   const jobsPerPage = 5;
 
-  // Fetch jobs once on component mount
-  useEffect(() => {
-    fetch("/jobs.json")
-      .then((res) => res.json())
-      .then((data) => setJobs(data))
-      .catch((error) => console.error("Error fetching jobs:", error));
-  }, []);
-
   // Optimize search function
-  const filterJobs = useCallback((jobs, term) => {
-    if (!term.trim()) return jobs;
+  const filterJobs = useCallback((term) => {
+    if (!term.trim()) return jobData;
     
     const searchTerms = term.toLowerCase().split(" ");
-    return jobs.filter(job => {
+    return jobData.filter(job => {
       const searchableText = `
         ${job.jobTitle || ''} 
         ${job.Organization || ''} 
@@ -1109,11 +1100,11 @@ function App() {
 
   // Get filtered and sorted jobs
   const filteredJobs = useMemo(() => {
-    const filtered = filterJobs(jobs, searchTerm);
+    const filtered = filterJobs(searchTerm);
     return filtered.sort((a, b) => 
       new Date(b.PostingDate) - new Date(a.PostingDate)
     );
-  }, [jobs, searchTerm, filterJobs]);
+  }, [searchTerm, filterJobs]);
 
   // Get current page jobs
   const currentJobs = useMemo(() => {
