@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 
-const jobData = [
+const jobData =
   [
     {
       "jobId": "GOV2025-001",
@@ -741,8 +741,7 @@ const jobData = [
       "jobDescription": "Selected candidates will assist in architectural tasks in CPWD.",
       "additionalInfo": "Candidates must apply online through the official portal."
     }
-  ]
-];
+  ];
 
 function Header({ theme, onToggleTheme }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
