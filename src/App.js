@@ -784,7 +784,7 @@ function Header({ theme, onToggleTheme }) {
     <header className="header">
       <nav className="nav-container">
         <div className="nav-left">
-          <h1><Link to="/">GovNakari (Now in β-state)</Link></h1>
+          <h1><Link to="/">Gov_Naukari (Now in β)</Link></h1>
         </div>
         
         <div className="nav-center">
@@ -1137,7 +1137,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/gov_naukari">
       <Header theme={theme} onToggleTheme={toggleTheme} />
       <Routes>
         <Route path="/" element={
@@ -1213,7 +1213,7 @@ function App() {
         />
       )}
       
-      <Footer />
+      <Footer onToggleTheme={toggleTheme} theme={theme} />
     </Router>
   );
 }
