@@ -11,7 +11,737 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 
 const jobData = [
-  // ... (same job data)
+  [
+    {
+      "jobId": "GOV2025-001",
+      "PostingDate": "2025-02-17",
+      "jobTitle": "Gramin Dak Sevak (GDS)",
+      "Organization": "India Post",
+      "TotalPosts": 21413,
+      "posts": ["Gramin Dak Sevak"],
+      "eligibility": [
+        {
+          "education": [
+            "10th pass from a recognized board"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-40 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Selection based on merit and marks in 10th standard"
+      },
+      "notificationDate": "2025-02-10",
+      "applicationLastDate": "2025-03-03",
+      "applicationFee": "₹100 for General/OBC candidates; No fee for SC/ST/PWD candidates",
+      "applicationLink": "https://indiapostgdsonline.gov.in",
+      "jobDescription": "Selected candidates will be responsible for postal services in rural areas.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-002",
+      "PostingDate": "2025-02-17",
+      "jobTitle": "Constable",
+      "Organization": "Punjab Police",
+      "TotalPosts": 1746,
+      "posts": ["Constable"],
+      "eligibility": [
+        {
+          "education": [
+            "12th pass from a recognized board"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-28 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test, physical test, and interview"
+      },
+      "notificationDate": "2025-02-21",
+      "applicationLastDate": "2025-03-13",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://punjabpolice.gov.in",
+      "jobDescription": "Selected candidates will be responsible for maintaining law and order.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-003",
+      "PostingDate": "2025-02-17",
+      "jobTitle": "Assistant Lineman",
+      "Organization": "Punjab State Power Corporation Limited (PSPCL)",
+      "TotalPosts": 2500,
+      "posts": ["Assistant Lineman"],
+      "eligibility": [
+        {
+          "education": [
+            "ITI in relevant trade"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-37 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and skill test"
+      },
+      "notificationDate": "2025-02-21",
+      "applicationLastDate": "2025-03-13",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://pspcl.in",
+      "jobDescription": "Selected candidates will be responsible for power distribution and maintenance.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-004",
+      "PostingDate": "2025-02-17",
+      "jobTitle": "Junior Court Assistant",
+      "Organization": "Supreme Court of India",
+      "TotalPosts": 241,
+      "posts": ["Junior Court Assistant"],
+      "eligibility": [
+        {
+          "education": [
+            "Bachelor's degree from a recognized university"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-30 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-05",
+      "applicationLastDate": "2025-03-08",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://sci.gov.in",
+      "jobDescription": "Selected candidates will assist in court-related administrative tasks.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-005",
+      "PostingDate": "2025-02-17",
+      "jobTitle": "Short Service Commission (SSC) Officer",
+      "Organization": "Indian Navy",
+      "TotalPosts": 270,
+      "posts": ["SSC Officer"],
+      "eligibility": [
+        {
+          "education": [
+            "Bachelor's degree in relevant discipline"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "19-25 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test, SSB interview, and medical examination"
+      },
+      "notificationDate": "2025-02-08",
+      "applicationLastDate": "2025-02-25",
+      "applicationFee": "No fee",
+      "applicationLink": "https://joinindiannavy.gov.in",
+      "jobDescription": "Selected candidates will serve as officers in the Indian Navy.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-006",
+      "PostingDate": "2025-02-17",
+      "jobTitle": "Civil Services Examination",
+      "Organization": "Union Public Service Commission (UPSC)",
+      "TotalPosts": 979,
+      "posts": ["Civil Services"],
+      "eligibility": [
+        {
+          "education": [
+            "Bachelor's degree from a recognized university"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "21-32 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "2025-06-02",
+        "examPattern": "Preliminary exam, Main exam, and interview"
+      },
+      "notificationDate": "2025-02-14",
+      "applicationLastDate": "2025-03-06",
+      "applicationFee": "₹100 for General/OBC candidates; No fee for SC/ST/PWD candidates",
+      "applicationLink": "https://upsc.gov.in",
+      "jobDescription": "Selected candidates will be recruited for various administrative services.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-007",
+      "PostingDate": "2025-02-17",
+      "jobTitle": "Probationary Officer (PO)",
+      "Organization": "State Bank of India",
+      "TotalPosts": 12345,
+      "posts": ["Probationary Officer"],
+      "eligibility": [
+        {
+          "education": [
+            "Graduation in any discipline from a recognized university",
+            "Minimum 60% marks in graduation",
+            "Valid IBPS score"
+          ],
+          "experience": [
+            "No prior experience required",
+            "Fresh graduates are welcome to apply"
+          ]
+        }
+      ],
+      "ageLimits": "21-30 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Preliminary exam, Main exam, followed by an interview"
+      },
+      "notificationDate": "2024-12-26",
+      "applicationLastDate": "2025-01-27",
+      "applicationFee": "₹750 for General/EWS/OBC candidates; ₹125 for SC/ST/PWD candidates",
+      "applicationLink": "https://www.sbi.co.in/careers",
+      "jobDescription": "Selected candidates will undergo training and will be responsible for various banking operations.",
+      "additionalInfo": "Candidates are advised to regularly check the official website for updates."
+    },
+    {
+      "jobId": "GOV2025-008",
+      "PostingDate": "2025-02-17",
+      "jobTitle": "Junior Engineer",
+      "Organization": "Railway Recruitment Board (RRB)",
+      "TotalPosts": 198,
+      "posts": ["Junior Engineer"],
+      "eligibility": [
+        {
+          "education": [
+            "Diploma in Engineering or B.Tech in relevant discipline"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-33 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Computer Based Test (CBT) and document verification"
+      },
+      "notificationDate": "2025-02-14",
+      "applicationLastDate": "2025-03-21",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://rrbcdg.gov.in",
+      "jobDescription": "Selected candidates will be responsible for railway engineering tasks.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-009",
+      "PostingDate": "2025-02-17",
+      "jobTitle": "Assistant Professor",
+      "Organization": "Tripura Public Service Commission (TPSC)",
+      "TotalPosts": 201,
+      "posts": ["Assistant Professor"],
+      "eligibility": [
+        {
+          "education": [
+            "Master's degree in relevant subject with minimum 55% marks",
+            "NET/SET qualification"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "21-40 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-14",
+      "applicationLastDate": "2025-03-07",
+      "applicationFee": "₹200 for General/OBC candidates; ₹150 for SC/ST/PWD candidates",
+      "applicationLink": "https://tpsc.tripura.gov.in",
+      "jobDescription": "Selected candidates will teach in government colleges.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-010",
+      "PostingDate": "2025-02-17",
+      "jobTitle": "Staff Nurse",
+      "Organization": "National Health Mission (NHM)",
+      "TotalPosts": 47,
+      "posts": ["Staff Nurse"],
+      "eligibility": [
+        {
+          "education": [
+            "B.Sc Nursing or Diploma in Nursing"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "21-35 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-14",
+      "applicationLastDate": "2025-03-17",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://nhm.gov.in",
+      "jobDescription": "Selected candidates will provide nursing services in government hospitals.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-011",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Research Fellow",
+      "Organization": "Indian Council of Agricultural Research (ICAR)",
+      "TotalPosts": 150,
+      "posts": ["Junior Research Fellow"],
+      "eligibility": [
+        {
+          "education": [
+            "Master's degree in relevant subject with minimum 60% marks"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "21-35 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-15",
+      "applicationLastDate": "2025-03-10",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://icar.org.in",
+      "jobDescription": "Selected candidates will conduct research in agricultural sciences.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-012",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Assistant Section Officer",
+      "Organization": "Ministry of External Affairs",
+      "TotalPosts": 300,
+      "posts": ["Assistant Section Officer"],
+      "eligibility": [
+        {
+          "education": [
+            "Bachelor's degree from a recognized university"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "20-30 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-16",
+      "applicationLastDate": "2025-03-12",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://mea.gov.in",
+      "jobDescription": "Selected candidates will assist in administrative tasks in the ministry.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-013",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Engineer (Civil)",
+      "Organization": "Central Public Works Department (CPWD)",
+      "TotalPosts": 250,
+      "posts": ["Junior Engineer (Civil)"],
+      "eligibility": [
+        {
+          "education": [
+            "Diploma in Civil Engineering"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-32 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-17",
+      "applicationLastDate": "2025-03-15",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://cpwd.gov.in",
+      "jobDescription": "Selected candidates will be responsible for civil engineering tasks.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-014",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Technical Assistant",
+      "Organization": "Indian Space Research Organisation (ISRO)",
+      "TotalPosts": 120,
+      "posts": ["Technical Assistant"],
+      "eligibility": [
+        {
+          "education": [
+            "Diploma in relevant engineering discipline"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-35 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-18",
+      "applicationLastDate": "2025-03-20",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://isro.gov.in",
+      "jobDescription": "Selected candidates will assist in technical tasks related to space research.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-015",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Accountant",
+      "Organization": "Indian Audit and Accounts Department",
+      "TotalPosts": 500,
+      "posts": ["Junior Accountant"],
+      "eligibility": [
+        {
+          "education": [
+            "Bachelor's degree in Commerce or relevant field"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-27 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and skill test"
+      },
+      "notificationDate": "2025-02-19",
+      "applicationLastDate": "2025-03-22",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://cag.gov.in",
+      "jobDescription": "Selected candidates will handle accounting tasks in government departments.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-016",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Stenographer",
+      "Organization": "Supreme Court of India",
+      "TotalPosts": 100,
+      "posts": ["Junior Stenographer"],
+      "eligibility": [
+        {
+          "education": [
+            "12th pass from a recognized board"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-27 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and skill test"
+      },
+      "notificationDate": "2025-02-20",
+      "applicationLastDate": "2025-03-25",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://sci.gov.in",
+      "jobDescription": "Selected candidates will assist in stenography tasks in the Supreme Court.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-017",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Translator",
+      "Organization": "Ministry of Home Affairs",
+      "TotalPosts": 80,
+      "posts": ["Junior Translator"],
+      "eligibility": [
+        {
+          "education": [
+            "Master's degree in relevant language"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-30 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-21",
+      "applicationLastDate": "2025-03-28",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://mha.gov.in",
+      "jobDescription": "Selected candidates will assist in translation tasks in the ministry.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-018",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Scientific Officer",
+      "Organization": "Defence Research and Development Organisation (DRDO)",
+      "TotalPosts": 90,
+      "posts": ["Junior Scientific Officer"],
+      "eligibility": [
+        {
+          "education": [
+            "Master's degree in relevant science discipline"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-30 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-22",
+      "applicationLastDate": "2025-03-30",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://drdo.gov.in",
+      "jobDescription": "Selected candidates will assist in scientific research tasks.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-019",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Librarian",
+      "Organization": "University Grants Commission (UGC)",
+      "TotalPosts": 60,
+      "posts": ["Junior Librarian"],
+      "eligibility": [
+        {
+          "education": [
+            "Master's degree in Library Science"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-35 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-23",
+      "applicationLastDate": "2025-03-31",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://ugc.ac.in",
+      "jobDescription": "Selected candidates will manage library resources in universities.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-020",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Pharmacist",
+      "Organization": "Ministry of Health and Family Welfare",
+      "TotalPosts": 200,
+      "posts": ["Junior Pharmacist"],
+      "eligibility": [
+        {
+          "education": [
+            "Diploma in Pharmacy"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-30 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-24",
+      "applicationLastDate": "2025-04-01",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://mohfw.gov.in",
+      "jobDescription": "Selected candidates will assist in pharmacy services in government hospitals.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-021",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Technician",
+      "Organization": "Bharat Heavy Electricals Limited (BHEL)",
+      "TotalPosts": 300,
+      "posts": ["Junior Technician"],
+      "eligibility": [
+        {
+          "education": [
+            "ITI in relevant trade"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-27 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and skill test"
+      },
+      "notificationDate": "2025-02-25",
+      "applicationLastDate": "2025-04-05",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://bhel.com",
+      "jobDescription": "Selected candidates will assist in technical tasks in BHEL.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-022",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Assistant",
+      "Organization": "Indian Railways",
+      "TotalPosts": 1000,
+      "posts": ["Junior Assistant"],
+      "eligibility": [
+        {
+          "education": [
+            "12th pass from a recognized board"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-30 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and skill test"
+      },
+      "notificationDate": "2025-02-26",
+      "applicationLastDate": "2025-04-10",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://indianrailways.gov.in",
+      "jobDescription": "Selected candidates will assist in administrative tasks in Indian Railways.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-023",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Scientist",
+      "Organization": "Council of Scientific and Industrial Research (CSIR)",
+      "TotalPosts": 150,
+      "posts": ["Junior Scientist"],
+      "eligibility": [
+        {
+          "education": [
+            "Ph.D. in relevant science discipline"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-35 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-27",
+      "applicationLastDate": "2025-04-15",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://csir.res.in",
+      "jobDescription": "Selected candidates will conduct scientific research in CSIR.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    },
+    {
+      "jobId": "GOV2025-024",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Engineer (Mechanical)",
+      "Organization": "Indian Oil Corporation Limited (IOCL)",
+      "TotalPosts": 200,
+      "posts": ["Junior Engineer (Mechanical)"],
+      "eligibility": [
+        {
+          "education": [
+            "Diploma in Mechanical Engineering"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-32 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-02-28",
+      "applicationLastDate": "2025-04-20",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://iocl.com",
+      "jobDescription": "Selected candidates will assist in mechanical engineering tasks in IOCL.",
+      "additionalInfo": "Candidates must apply online through the official website."
+    },
+    {
+      "jobId": "GOV2025-025",
+      "PostingDate": "2025-02-18",
+      "jobTitle": "Junior Architect",
+      "Organization": "Central Public Works Department (CPWD)",
+      "TotalPosts": 50,
+      "posts": ["Junior Architect"],
+      "eligibility": [
+        {
+          "education": [
+            "Bachelor's degree in Architecture"
+          ],
+          "experience": [
+            "No prior experience required"
+          ]
+        }
+      ],
+      "ageLimits": "18-30 years (relaxations as per government norms)",
+      "examinationDetails": {
+        "examDate": "To be announced",
+        "examPattern": "Written test and interview"
+      },
+      "notificationDate": "2025-03-01",
+      "applicationLastDate": "2025-04-25",
+      "applicationFee": "₹500 for General/OBC candidates; ₹250 for SC/ST/PWD candidates",
+      "applicationLink": "https://cpwd.gov.in",
+      "jobDescription": "Selected candidates will assist in architectural tasks in CPWD.",
+      "additionalInfo": "Candidates must apply online through the official portal."
+    }
+  ]
 ];
 
 function Header({ theme, onToggleTheme }) {
