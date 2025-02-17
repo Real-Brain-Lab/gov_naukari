@@ -55,7 +55,7 @@ function Header({ theme, onToggleTheme }) {
     <header className="header">
       <nav className="nav-container">
         <div className="nav-left">
-          <h1><Link to="/">GovJobs (Now in β-state)</Link></h1>
+          <h1><Link to="/">GovNakari (Now in β-state)</Link></h1>
         </div>
         
         <div className="nav-center">
@@ -67,7 +67,7 @@ function Header({ theme, onToggleTheme }) {
         
         <div className="nav-right">
           <a 
-            href="https://t.me/govjobs" 
+            href="https://t.me/govnaukari" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="telegram-link"
